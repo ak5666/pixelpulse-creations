@@ -19,13 +19,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10 text-center">
         <div className="animate-fade-in">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full mb-6">
-            <Code2 className="w-4 h-4 text-primary animate-glow" />
-            <span className="text-sm font-medium text-primary">
-              Full-Stack Developer
-            </span>
-          </div>
-
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
             Building Fast, Creative,
             <br />
@@ -33,8 +26,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto">
-            I'm Akshay Kumar, a full-stack developer who transforms ideas into
-            stunning digital experiences that drive results.
+            Transforming ideas into stunning digital experiences that drive results.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
