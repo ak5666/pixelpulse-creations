@@ -12,18 +12,21 @@ const Portfolio = () => {
       description: "Modern restaurant site with online menu and reservation system",
       image: projectRestaurant,
       tags: ["React", "Tailwind", "Animation"],
+      link: "https://example.com/restaurant-demo",
     },
     {
       title: "Photography Portfolio",
       description: "Elegant gallery showcase for professional photographer",
       image: projectPhotography,
       tags: ["Next.js", "Gallery", "Responsive"],
+      link: "https://example.com/photography-demo",
     },
     {
       title: "Business Landing Page",
       description: "High-converting landing page for B2B services",
       image: projectBusiness,
       tags: ["React", "SEO", "Analytics"],
+      link: "https://example.com/business-demo",
     },
   ];
 
@@ -56,9 +59,12 @@ const Portfolio = () => {
                   <Button
                     variant="outline"
                     className="neon-border"
+                    asChild
                   >
-                    View Details
-                    <ExternalLink className="ml-2 w-4 h-4" />
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      View Details
+                      <ExternalLink className="ml-2 w-4 h-4" />
+                    </a>
                   </Button>
                 </div>
               </div>
